@@ -101,7 +101,7 @@ function CourseDetails() {
     instructor,
     studentsEnrolled,
     createdAt,
-  } = response.data?.courseDetails
+  } = response?.data?.courseDetails
 
   const handleBuyCourse = () => {
     // if (token) {

@@ -18,7 +18,7 @@ const InstructorDashboard = () => {
     const navigate = useNavigate()
 
     useEffect(() => {
-        ;(async () => {
+        (async () => {
             //get instructor details
             const instructorDetails = await getInstructorDashboard(token, dispatch);
             const instructorCourses = await fetchInstructorCourses(token);

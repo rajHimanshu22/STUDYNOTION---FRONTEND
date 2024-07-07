@@ -28,7 +28,7 @@ const VideoDetails = () => {
   // phle render pr kya show krna hai uske liye useEffect ka use kr rhe
   // isse ye hua ki konsa video show kra hai
   useEffect(() => {
-    ;(async () => {
+    (async () => {
       if (!courseSectionData.length) return // agar data present nhi ho
 
       if (!courseId && !sectionId && !subSectionId) { // agar ye sb id hi na ho tb piche page pr chale jayege
